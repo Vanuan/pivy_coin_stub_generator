@@ -1,0 +1,9 @@
+[submodule "coin"]
+	path = coin
+	url = ./coin
+[submodule "pivy"]
+	path = pivy
+	url = ./pivy/
+[submodule "robotpy-cppheaderparser"]
+	path = robotpy-cppheaderparser
+	url = ./robotpy-cppheaderparser/
