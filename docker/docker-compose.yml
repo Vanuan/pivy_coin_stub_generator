@@ -1,0 +1,14 @@
+version: '3'
+services:
+  python:
+    build: ./python
+    image: python3_image
+    volumes:
+      - ..:/src
+    working_dir: '/src/'
+  standardese:
+    build: ./doxy
+    image: doxy_image
+    volumes:
+      - ..:/src
+    working_dir: '/src/'
